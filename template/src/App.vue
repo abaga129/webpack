@@ -73,12 +73,13 @@
   </v-app>
 </template>
 
-<script>
+<script lang='ts'>
+import Vue from 'vue';
 {{#unless router}}
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './components/HelloWorld.vue'
 
 {{/unless}}
-export default {
+export default Vue.extend({
   data () {
     return {
       clipped: false,
@@ -98,5 +99,5 @@ export default {
   components: {
     HelloWorld
   }{{/router}}
-}
+})
 </script>

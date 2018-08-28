@@ -8,7 +8,7 @@
 │   ├── index.js                # main project config
 │   └── ...
 ├── src/
-│   ├── main.js                 # app entry file
+│   ├── main.ts                 # app entry file
 │   ├── App.vue                 # main app component
 │   ├── components/             # ui components
 │   │   └── ...
